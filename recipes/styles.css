@@ -1,0 +1,236 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Verdana, 'Trebuchet MS', sans-serif;
+  background-image: url(https://i.pinimg.com/originals/b4/21/cb/b421cb516f9c3636575c0e5b60d840fb.jpg);
+}
+
+a{
+  text-decoration: none;
+}
+
+/*This section belongs to index.html*/
+
+@media screen and (max-width: 700px) {
+  .mainpage-title{
+    font-size: 40px;
+    text-align: center;
+  }
+}
+
+#main-header{
+  width: 60%;
+  height: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  justify-content: center;
+  background-color: #525a19;
+  border: solid;
+  border-color: #000000;
+  border-radius: 15px;
+}
+
+.mainpage-title{
+  font-size: 70px;
+  text-align: center;
+  color: #cdcf52;
+}
+
+.select-recipe{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 70%;
+}
+
+.select-title{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.recipe{
+  flex-direction: column;
+}
+
+.cover-image {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.select-item{
+  background-color: #cdcf52;
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+  border: solid;
+  border-color: #525a19;
+  border-radius: 15px;
+}
+
+.select-item:hover{
+  transform: rotate(1deg);
+  background-color: #525a19;
+  border-color: #cdcf52;
+  color: white;
+}
+
+/*This section belongs to the three recipes*/
+
+#recipe-header{
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  background-color: #525a19;
+  border: solid;
+  border-color: black;
+  border-radius: 15px;
+}
+
+#recipe-title{
+  color: #cdcf52;
+  text-align: center;
+  font-size: 60px;
+}
+
+.home{
+  color: white;
+  background-color: #525a19;
+}
+
+.home .top{
+  margin-top: 10px;
+}
+
+#recipe-description{
+  background-color: #cdcf52;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  border-color: #525a19;
+  border-radius: 15px;
+}
+
+.recipe-text{
+  font-size: 25px;
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+#recipe-ingredients{
+  background-color: #cdcf52;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  border-color: #525a19;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.recipe-subtitles{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #525a19;
+  font-size: 30px;
+}
+
+#recipeul-style{
+  margin-left: 10%;
+  margin-bottom: 10px;
+  margin-right: 10%;
+}
+
+.recipesul-list{
+  font-size: 20px;
+  list-style: circle;
+}
+
+#recipe-steps{
+  background-color: #cdcf52;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  border-color: #525a19;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#recipeol-style{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 15px;
+}
+
+.recipeol-list{
+  margin-top: 5px;
+}
+
+.recipeul-list:hover{
+  background-color: #525a19;
+  color: #cdcf52;
+}
+
+.recipeol-list:hover{
+  background-color: #525a19;
+  color: #cdcf52;
+}
+
+/*This section belongs to each recipe page img*/
+
+#rajas-img{
+  width: 80%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#pozole-img{
+  width: 80%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#jericalla-img{
+  width: 80%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
